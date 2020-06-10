@@ -1,35 +1,33 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: blue;
   color: white;
   height: 10vh;
 }
 
-.content{
+.content {
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: white;
   color: blue;
   height: 80vh;
 }
 
-.footer{
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  
   background-color: darkblue;
   color: white;
   height: 10vh;
 }
+
