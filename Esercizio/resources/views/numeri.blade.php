@@ -25,11 +25,20 @@
       <div class="content">
         <div class="row">
 
-          <h1>BENVENUTO IN QUESTA PAGINA</h1>
+          @foreach ($numbers as $value)
+
+            <div class="number">
+
+              <p> {{ $value }} </p>
+
+            </div>
+
+
+          @endforeach
+
 
         </div>
-        <a href="/numeri"> <p>NUMERI</p> </a>
-        <a href="/nomi"> <p>NOMI</p> </a>
+        <a href="/">PAGINA INIZIALE</a>
       </div>
 
       <div class="footer">

@@ -25,11 +25,16 @@
       <div class="content">
         <div class="row">
 
-          <h1>BENVENUTO IN QUESTA PAGINA</h1>
+          <h1>NOMI</h1>
+
+          <li>Diego</li>
+          <li>Diego</li>
+          <li>Diego</li>
+          <li>Diego</li>
+          <li>Diego</li>
 
         </div>
-        <a href="/numeri"> <p>NUMERI</p> </a>
-        <a href="/nomi"> <p>NOMI</p> </a>
+        <a href="/">PAGINA INIZIALE</a>
       </div>
 
       <div class="footer">

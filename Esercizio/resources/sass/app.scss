@@ -15,20 +15,38 @@
 }
 
 .content{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  background-color: white;
-  color: blue;
-  height: 80vh;
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: white;
+    color: blue;
+    height: 80vh;
+  }
+
+  .number{
+    display: flex;
+
+    border: 1px solid blue;
+    background-color: lightgrey;
+    height: 50px;
+    width: 50px;
+
+    p{
+
+    }
+  }
 }
 
 .footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   background-color: darkblue;
   color: white;
   height: 10vh;

@@ -13,13 +13,22 @@
   height: 10vh;
 }
 
-.content {
+.content .row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: white;
   color: blue;
   height: 80vh;
+}
+
+.content .number {
+  display: flex;
+  border: 1px solid blue;
+  background-color: lightgrey;
+  height: 50px;
+  width: 50px;
 }
 
 .footer {
