@@ -14,36 +14,11 @@
 
     <body>
 
-      <div class="header">
-        <div class="row">
+      @include('components.header')
 
-          <p>HEADER</p>
+      @yield('content')
 
-        </div>
-      </div>
-
-      <div class="content">
-        <div class="row">
-
-          <h1>NOMI</h1>
-
-          <li>Diego</li>
-          <li>Diego</li>
-          <li>Diego</li>
-          <li>Diego</li>
-          <li>Diego</li>
-
-        </div>
-        <a href="/">PAGINA INIZIALE</a>
-      </div>
-
-      <div class="footer">
-        <div class="row">
-
-          <p>FOOTER</p>
-
-        </div>
-      </div>
+      @include('components.footer')
 
     </body>
 </html>
